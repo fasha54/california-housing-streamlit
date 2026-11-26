@@ -1,0 +1,104 @@
+{
+  "r2_score": 0.8012673965967799,
+  "mae": 33898.066013374446,
+  "rmse": 51031.45968603755,
+  "mape": 19.218556094920103,
+  "median_bedrooms_imputed": 435.0,
+  "total_rows": 20640,
+  "train_rows": 16512,
+  "test_rows": 4128,
+  "feature_importances": [
+    {
+      "feature": "median_income",
+      "importance": 0.529159422099209
+    },
+    {
+      "feature": "ocean_proximity_INLAND",
+      "importance": 0.15578736721811473
+    },
+    {
+      "feature": "longitude",
+      "importance": 0.09912651961648564
+    },
+    {
+      "feature": "latitude",
+      "importance": 0.09444063378853229
+    },
+    {
+      "feature": "housing_median_age",
+      "importance": 0.0452345435545207
+    },
+    {
+      "feature": "population",
+      "importance": 0.021465157050396422
+    },
+    {
+      "feature": "total_bedrooms",
+      "importance": 0.017475201621876567
+    },
+    {
+      "feature": "total_rooms",
+      "importance": 0.014293936825243391
+    },
+    {
+      "feature": "households",
+      "importance": 0.011981897405815003
+    },
+    {
+      "feature": "ocean_proximity_NEAR OCEAN",
+      "importance": 0.006551928025530216
+    },
+    {
+      "feature": "ocean_proximity_<1H OCEAN",
+      "importance": 0.0036532797585924416
+    },
+    {
+      "feature": "ocean_proximity_ISLAND",
+      "importance": 0.00042584888825902584
+    },
+    {
+      "feature": "ocean_proximity_NEAR BAY",
+      "importance": 0.0004042641474246227
+    }
+  ],
+  "kmeans_silhouette": 0.6539051816587537,
+  "cluster_stats": {
+    "0": {
+      "region": "California Selatan (Greater Los Angeles / San Diego)",
+      "mean_price": 219655.2746555475,
+      "total_blocks": 11032,
+      "mean_latitude": 33.824350978970266,
+      "mean_longitude": -117.88493836113126,
+      "price_level": "Menengah"
+    },
+    "1": {
+      "region": "California Utara (Bay Area / Sacramento)",
+      "mean_price": 208414.84350850078,
+      "total_blocks": 7764,
+      "mean_latitude": 38.113651468315304,
+      "mean_longitude": -121.93029495105617,
+      "price_level": "Menengah"
+    },
+    "2": {
+      "region": "California Tengah (Central Valley / Fresno)",
+      "mean_price": 123717.04229934924,
+      "total_blocks": 1844,
+      "mean_latitude": 35.99619848156183,
+      "mean_longitude": -119.71000542299349,
+      "price_level": "Lebih Rendah"
+    }
+  },
+  "categories": [
+    "<1H OCEAN",
+    "INLAND",
+    "ISLAND",
+    "NEAR BAY",
+    "NEAR OCEAN"
+  ],
+  "price_summary": {
+    "min": 14999.0,
+    "max": 500001.0,
+    "mean": 206855.81690891474,
+    "median": 179700.0
+  }
+}
